@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>스타일 없는 웹 페이지</title>
+    <meta charset="UTF-8">
+    <style>
+        body{
+            background-image: url("desktop/배경.gif");
+            background-size: cover;
+            -webkit-user-select:none;
+            -moz-user-select:none;
+            -ms-user-select:none;
+            user-select:none
+        }
+        .header {   width: 100%;
+            height: 100px;
+            border: 20px;
+            text-align: center;
+            font-size: 80px;
+            font-family: 함초롬돋움;
+            color: brown;       }
+
+        #background{
+            background-image: url("Desktop/배경.png");
+            background-size: cover;}
+
+        #kimchi{
+            background-image: url("Desktop/김치.png");
+            background-size: cover;
+        }
+
+        #makgeolli{
+            background-image: url("Desktop/막걸리.png");
+            background-size: cover;
+        }
+
+        #bibimbap{
+            background-image: url("Desktop/비빔밥.png");
+            background-size: cover;
+        }
+
+        #japchae{
+            background-image: url("Desktop/잡채.png");
+            background-size: cover;
+        }
+
+        #doenjangStew{
+            background-image: url("Desktop/된장찌개.png");
+            background-size: cover;
+        }
+
+        #samgyetang{
+            background-image: url("Desktop/삼계탕.png");
+            background-size: cover;
+        }
+
+        #tteokguk{
+            background-image: url("Desktop/떡국.png");
+            background-size: cover;
+        }
+        footer {
+            margin-top: 900px;
+            font-size: 10px;
+            text-align: center;
+        }
+        a{
+            text-decoration-line : none;
+        }
+
+        .Line{
+            margin-left: 150px;
+            margin-top: 50px;
+            float: left;
+            width: 700px;
+            height: 150px;
+            font-size: 50px;
+            cursor: pointer;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div>
+    <header class="header">
+        한국의 대표 전통음식
+    </header>
+
+    <div class="Line" id="tteokguk" onclick="location.href='tteokguk.html';"><pre>
+   떡국
+    </pre></div>
+    <div class="Line" id="bibimbap" onclick="location.href='bibimbap.html';"><pre>
+   비빔밥
+    </pre></div>
+    <div class="Line" id="doenjangStew" onclick="location.href='doenjangStew.html';"><pre>
+   된장찌개
+    </pre></div>
+    <div class="Line" id="samgyetang" onclick="location.href='samgyetang.html';"><pre>
+   삼계탕
+    </pre></div>
+    <div class="Line" id="kimchi" onclick="location.href='kimchi.html';"><pre>
+   김치
+    </pre></div>
+    <div class="Line" id="makgeolli" onclick="location.href='makgeolli.html';"><pre>
+   막걸리
+    </pre></div>
+    <div class="Line" id="japchae" onclick="location.href='japchae.html';"><pre>
+   잡채
+    </pre></div>
+    <div class="Line" id="background" style="cursor: unset;"></div>
+
+    <footer class="footer">
+        <hr>
+        [01757] 서울특별시 노원구 동일로 214길 32(상계동 205) TEL 02-950-5401COPYRIGHT ⓒ 2019 <br>
+        KoreanBible University. All Right Reseved.<br>
+        HeeMin, JinHong, DongIn<br>
+        모든 자료는 http://kfr.or.kr/ 에서 찾았습니다
+    </footer>
+</div>
+</body>
+</html>
